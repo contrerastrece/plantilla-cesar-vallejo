@@ -1,0 +1,132 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background: #f3f3f3;
+   
+}
+.navbar-nav .active{
+    border-bottom:2px solid white;
+    padding:auto;
+    background: #e27a85;
+}
+.navbar-nav .nav-link:hover{
+    border-bottom: 2px solid white;
+    transition:.3s;
+    scale: 1.05;
+    background: #e27a85;
+}
+.buscado{
+    
+    box-sizing: border-box;
+    background: cyan;
+}
+.buscado article{
+    background: red;
+    padding: 1rem 3rem 1rem 1rem;
+    border:1px solid black;
+
+} 
+.aside-subtitle{
+    flex-wrap: nowrap;
+    font-size: 1rem;
+}
+aside p{
+    text-align: justify;
+    font-size: 0.8rem;
+}
+.institucion{
+    box-sizing: border-box;
+}
+
+.banners{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banners-titulo{
+    position: absolute;
+    color:white;
+    font-size: 5rem;
+    
+}
+.about-sidebar{
+    background-image: url(../img/sidebar-about.png);
+    background-size: cover;
+    box-sizing: border-box;
+}
+.footer{
+    color:white;
+    background: #d22936;
+    box-sizing: border-box;
+    
+
+}
+.footer-content{
+    border-left: .1rem solid whitesmoke;   
+}
+
+.footer-rs{
+    text-align: center;
+    list-style: none;
+    display: flex;
+}
+.footer-rs-item{
+    background: #eda9af;    
+    margin: .5rem;
+    border-radius: 50%;
+}
+.footer-rs-item a{
+    width:3rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color:transparent;
+    line-height: 3rem;
+    color:#d22936;
+    transition:all .3s linear;
+    
+}
+.footer-rs-item:hover a{
+    color:white;
+    background:#d22936;
+    border:1px solid white;
+    border-radius: 50%;
+    
+}
+.footer-copy{
+    text-align:center;
+    margin-top:1rem;
+    border-top:1px solid whitesmoke;
+    padding:0.5rem;
+}
+/*RESPONSIVE*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media(max-width: 576px){ 
+        
+    .buscado{
+        background: yellow;
+    }
+}
+.sticky-top2{
+    position:-webkit-sticky;
+    position: sticky;
+    top:3rem;
+    z-index: 14466;
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width:768px) { 
+  
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (max-width: 992px){ 
+   
+ 
+
+}
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (max-width:1200) { 
+}
